@@ -38,3 +38,7 @@ function! autogit#PrepareGitRepository()
 	endif
 	return repo_name
 endfunction
+
+function! autogit#Git(args)
+	execute "!GIT_DIR=.autogit-".expand("%:t")." GIT_WORK_TREE=. git --no-pager ".a:args
+endfunction
