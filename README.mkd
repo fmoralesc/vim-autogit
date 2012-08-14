@@ -1,0 +1,8 @@
+# vim-autogit
+
+autocommit changes to a file to an independent git repository.
+
+inspired by [this
+comment](http://www.reddit.com/r/linux/comments/y5j35/texteditor_with_etherpadlike_feature/c5sijfi)
+in reddit and the discussion.
+
